@@ -1,0 +1,57 @@
+var a =[{
+ 
+  "item": "no 1",	
+  "name": "milk",
+  "price": "1$",
+   "photo":"imgg/milk.jpeg",
+},{
+	
+  "item": "no2",
+  "name": "lemon",
+  "price": "1$",
+  "photo":"imgg/lemon.jpeg",
+},{
+	
+	"item": "no3",
+  "name": "orange",
+  "price": "2$",
+  "photo":"imgg/orange.jpeg",
+},{
+	
+ "item": "no4",
+  "name": "juice",
+  "price": "1$",
+  "photo":"imgg/juice.jpeg",
+},{
+	
+	"item": "no5",
+  "name": "french_cheese",
+  "price": "3$",
+  "photo":"imgg/french_cheese.jpeg",
+},{
+	
+	"item": "no6",
+  "name": "biscuit",
+  "price": "1$",
+  "photo":"imgg/biscuit",
+},{
+	"item": "no7",
+  "name": "bananas",
+  "price": "1$",
+  "photo":"imgg/bananas.jpeg",
+}]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}]
