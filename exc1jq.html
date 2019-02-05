@@ -2,8 +2,39 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" href="style.css">
+<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
+
+	
+	<div class="box" text="You clicked on the santa claus">
+		<img src="https://juststickers.in/wp-content/uploads/2016/11/santa-claus.png" alt="">
+	</div>
+
+	<div class="box" text="You clicked on the Christmas bell">
+		<img src="http://www.freepngimg.com/download/christmas_bell/1-2-christmas-bell-png-image.png" alt="">
+	</div class="box">
+	
+	<div class="box" text="You clicked on the red bow">
+		<img src="https://cdn.shopify.com/s/files/1/1369/2605/articles/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.png?v=1511752878" alt="">
+	</div>
+
+
+	<p id="result"></p>
+ <script>
+    $(document).ready(function() {
+        $('.box').on('click', function() {
+        	$a = $(this).attr("text");
+        	$("#result").text($a);
+      
+
+        })
+    });
+
+    </script>
+
+
 
 </body>
 </html>
